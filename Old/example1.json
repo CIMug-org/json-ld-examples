@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "cim": "http://iec.ch/TC57/2013/CIM#"
+  },
+  "topologicalNodes": [
+    {
+      "@type": "TopologicalNode",
+      "mRID": "TN1",
+      "terminal": [
+        {
+          "@type": "Terminal",
+          "mRID": "T11",
+          "measurements": [
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseActivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            },
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseReactivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "connectivityNodes": [
+        {
+          "@type": "ConnectivityNode",
+          "terminals": [
+            {
+              "@type": "Terminal",
+              "mRID": "T9"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T9a"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T9b"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "TopologicalNode",
+      "mRID": "TN2",
+      "terminal": [
+        {
+          "@type": "Terminal",
+          "mRID": "T23",
+          "measurements": [
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseActivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            },
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseReactivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "connectivityNodes": [
+        {
+          "@type": "ConnectivityNode",
+          "terminals": [
+            {
+              "@type": "Terminal",
+              "mRID": "T21"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T22"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T22a"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T22b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "TopologicalNode",
+      "mRID": "TN3",
+      "terminal": [
+        {
+          "@type": "Terminal",
+          "mRID": "T38",
+          "measurements": [
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseActivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            },
+            {
+              "@type": "Analog",
+              "measurementType": "ThreePhaseReactivePower",
+              "analogValues": [
+                {
+                  "@type": "AnalogValue",
+                  "timeStamp": "2021-05-27 09:00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "connectivityNodes": [
+        {
+          "@type": "ConnectivityNode",
+          "terminals": [
+            {
+              "@type": "Terminal",
+              "mRID": "T36"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T37"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T37a"
+            },
+            {
+              "@type": "Terminal",
+              "mRID": "T37b"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
